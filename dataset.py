@@ -6,8 +6,8 @@ class POSTags(torchtext.data.TabularDataset):
 
 
     urls = (
-        'http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz',
-        'http://www.cnts.ua.ac.be/conll2000/chunking/train.txt.gz',
+        'https://www.clips.uantwerpen.be/conll2000/chunking/train.txt.gz',
+        'https://www.clips.uantwerpen.be/conll2000/chunking/test.txt.gz',
             )
     filenames = (
         'test.txt.gz',
